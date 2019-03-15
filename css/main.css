@@ -45,29 +45,43 @@ img
 	margin-top: 60px;
 }
 
-#alexPic
-{
-	margin-left: 120px;
-	border: 2px black;
-	border-style: solid;
-	padding: 40px 60px;
 
-}
 
 #alexPic:hover
 {
 	background-color: white;
 	transform: scale(1.2);
+	border: 2px black;
+	border-style: solid;
+	padding: 40px 60px;
+}
+
+.hide-alexPic
+{
+	display: none;
 }
 
 #katPic
 {
-
+	margin-left: 120px;
 	border: 2px black;
 	border-style: solid;
 	padding: 40px 60px;
 	
 }
+
+#alexPic
+{
+	margin-left: 120px;
+	border: 2px black;
+	border-style: solid;
+	padding: 40px 60px;	
+}
+.hide-katPic
+{
+	display: none;
+}
+
 
 #katPic:hover
 {
@@ -90,17 +104,53 @@ button:hover
 	border: 2px white;
 }
 
+.hide-button
+{
+	display: none;
+}
 
+.hide-picture
+{
+	display: none;
+}
 
-/*#katBio
+.katBio
 {
 	display: flex;
 	flex-direction: row;
+	margin-top: -400px;
+	margin-left: 80px;
+	display: none;
 }
 
-#alexBio
+#bioTextK 
+{
+	
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.hide-katBio
+{
+	display: hidden;
+}
+
+.show
+{
+	display: block;
+}
+
+.alexBio
 {
 	display: flex;
 	flex-direction: row;
+	display: none;
 }
-*/
+
+.show-alexBio
+{
+	display: block;
+}
+
+
