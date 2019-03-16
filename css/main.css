@@ -21,6 +21,7 @@
 body
 {
 	background-image: url(../images/car.jpg);
+	
 }
 
 #intro p
@@ -146,6 +147,7 @@ button:hover
 	display: flex;
 	flex-direction: row;
 	display: none;
+	margin-top: -400px;
 }
 
 .show-alexBio
@@ -153,4 +155,10 @@ button:hover
 	display: block;
 }
 
-
+#bioTextA 
+{
+	
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+}
