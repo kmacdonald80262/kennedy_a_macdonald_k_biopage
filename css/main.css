@@ -21,13 +21,14 @@
 body
 {
 	background-image: url(../images/car.jpg);
-	
+	font-family: 'Lato', sans-serif;
 }
 
 #intro p
 {
 	display: flex;
 	justify-content: center;
+	font-family: 'Lato', sans-serif;
 }
 
 img
@@ -130,6 +131,7 @@ button:hover
 	width: 200px;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Lato', sans-serif;
 }
 
 .hide-katBio
@@ -161,4 +163,9 @@ button:hover
 	width: 300px;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Lato', sans-serif;
+}
+
+h2, h3 {
+	font-family: 'Merriweather', serif;
 }
